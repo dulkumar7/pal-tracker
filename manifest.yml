@@ -5,3 +5,5 @@ applications:
     - route: pal-tracker-jenkins-pipline-setup.cfapps.io
   env:
     WELCOME_MESSAGE: Hello from the review environment
+  services:
+    service: pal-tracker-db
